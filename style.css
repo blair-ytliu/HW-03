@@ -1,0 +1,88 @@
+body{
+    background-image: url(polka-dot-pattern-vector.jpg);
+    
+}
+
+*{box-sizing: border-box;}
+
+.ground{
+    margin: 50px auto;
+    width: 95%
+}
+
+div.up{
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background: #323252;
+    margin: 0 auto ;
+}
+
+.test{
+    display: inline-block;
+    width: 4%;
+   
+}
+
+div.down{
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background: white;
+    margin: 0 auto ;
+}
+
+.in{
+    height: auto;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+}
+
+.below{
+    font-size: 17px;
+    margin: 20px auto;
+    text-align: left;
+    width:170px;
+    color: grey;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+div.below > span{
+    color: black;
+}
+
+.top{
+    margin: 30px auto ;
+    font-size: 20px;
+}
+
+div.mid{
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mid_left{
+    vertical-align: top;
+}
+
+.mid_center{
+    font-size: 70px;
+    margin: auto 15px
+}
+
+.bottom{
+    font-size: 16px;
+    padding: 8px;
+    width: 170px;
+    margin: 30px auto 0 auto;
+    border: 1px solid white;
+    border-radius:5px;
+}
+
+.block{
+    margin-top: 35px;
+}
+
